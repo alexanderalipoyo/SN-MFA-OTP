@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2025-02-18T13:15:58.519Z",
-    "end": "2025-02-18T13:16:39.736Z",
-    "duration": 36778,
+    "start": "2025-02-27T11:04:52.825Z",
+    "end": "2025-02-27T11:05:19.458Z",
+    "duration": 22547,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "77808375-3dd6-4be0-9424-8dd610ed37e0",
+      "uuid": "a2bf1dce-63ee-43e5-9ea5-426f7fa4dcee",
       "title": "",
       "fullFile": "cypress\\e2e\\mfa_config\\mfa\\mfa_otp.ts",
       "file": "cypress\\e2e\\mfa_config\\mfa\\mfa_otp.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "d1cf8ee0-9176-4f3c-b9ef-c4b3b4cbf6e9",
+          "uuid": "9ff8e712-c612-420a-a35e-b52f5e1f9f67",
           "title": "MFA without QR Code Image",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Validate login",
               "fullTitle": "MFA without QR Code Image Validate login",
               "timedOut": null,
-              "duration": 36778,
+              "duration": 22547,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.loginPortal();",
               "err": {},
-              "uuid": "9cc1d3b6-be09-4453-80eb-2190b461d662",
-              "parentUUID": "d1cf8ee0-9176-4f3c-b9ef-c4b3b4cbf6e9",
+              "uuid": "71cddaec-6bdb-46b9-a166-40763a21c8ba",
+              "parentUUID": "9ff8e712-c612-420a-a35e-b52f5e1f9f67",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "9cc1d3b6-be09-4453-80eb-2190b461d662"
+            "71cddaec-6bdb-46b9-a166-40763a21c8ba"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 36778,
+          "duration": 22547,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

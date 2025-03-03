@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2025-02-28T10:52:46.086Z",
-    "end": "2025-02-28T10:53:05.630Z",
-    "duration": 15604,
+    "start": "2025-03-03T10:32:22.209Z",
+    "end": "2025-03-03T10:32:47.857Z",
+    "duration": 20935,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,17 +18,17 @@
   },
   "results": [
     {
-      "uuid": "ab83f33a-fc24-4991-87f8-6b3fe09fdc8d",
+      "uuid": "1ff27265-0aee-4e6d-be76-191bfacd7755",
       "title": "",
-      "fullFile": "cypress\\e2e\\mfa_config\\mfa\\mfa_qr_code.ts",
-      "file": "cypress\\e2e\\mfa_config\\mfa\\mfa_qr_code.ts",
+      "fullFile": "cypress\\e2e\\mfa_config\\mfa\\mfa_otp.ts",
+      "file": "cypress\\e2e\\mfa_config\\mfa\\mfa_otp.ts",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "194100fd-46f7-46d5-9a0f-004b48a289d8",
-          "title": "MFA with QR Code Image",
+          "uuid": "57b9b118-768e-4e49-ba42-faa770ec307d",
+          "title": "MFA without QR Code Image",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
@@ -36,9 +36,9 @@
           "tests": [
             {
               "title": "Validate login",
-              "fullTitle": "MFA with QR Code Image Validate login",
+              "fullTitle": "MFA without QR Code Image Validate login",
               "timedOut": null,
-              "duration": 15604,
+              "duration": 20935,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.loginPortal();",
               "err": {},
-              "uuid": "83f0262c-2e46-48b8-9692-153de72981b3",
-              "parentUUID": "194100fd-46f7-46d5-9a0f-004b48a289d8",
+              "uuid": "27b98c5c-b5f1-41e4-b09f-703a490c00c7",
+              "parentUUID": "57b9b118-768e-4e49-ba42-faa770ec307d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "83f0262c-2e46-48b8-9692-153de72981b3"
+            "27b98c5c-b5f1-41e4-b09f-703a490c00c7"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 15604,
+          "duration": 20935,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
